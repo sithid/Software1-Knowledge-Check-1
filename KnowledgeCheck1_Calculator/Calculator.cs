@@ -8,17 +8,18 @@ namespace KnowledgeCheck1_Calculator
 {
     public class Calculator
     {
-        public int Add(int first, int second)
+        // Changed methods to support doubles instead of just ints.
+        public double Add(double first, double second)
         {
             return first + second;
         }
 
-        public int Subtract(int first, int second)
+        public double Subtract(double first, double second)
         {
             return first - second;
         }
 
-        public int Multiply(int first, int second)
+        public double Multiply(double first, double second)
         {
             return first * second;
         }
